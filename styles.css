@@ -1,0 +1,56 @@
+.body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#reaction-input {
+  width: 60px;
+}
+
+.container {
+  background-color: rgb(212, 208, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+}
+
+.cell {
+  background-color: grey;
+  border: 1px solid;
+}
+
+.red-cell {
+  background-color: red;
+}
+
+.list {
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reaction-time {
+  border: solid 1px black;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.mouse-click-count {
+  border: solid 1px black;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
